@@ -32,6 +32,7 @@ class hackathonapp(toga.App):
         main_box.add(image_1, button)
         main_box.add(name_box)
         # main_box.add(button)
+        print('hi')
 
         self.main_window = toga.MainWindow(title=self.formal_name)
         self.main_window.content = main_box
